@@ -25,13 +25,9 @@ var server = http.createServer(app);
  * Listen on provided port, on all network interfaces.
  */
 
-
-var cfenv = require("cfenv");
-var appEnv = cfenv.getAppEnv();
-
-server.listen(appEnv.port, "0.0.0.0", () => {
-  console.log("Running at " + appEnv.url);
-});
+server.listen(port);
+server.on('error', onError);
+server.on('listening', onListening);
 
 /**
  * Normalize a port into a number, string, or false.
