@@ -1,4 +1,4 @@
 
 applications:
-  - memory: 256M
+  - memory: 512M
     buildpack: sdk-for-nodejs
