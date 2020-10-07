@@ -1,0 +1,6 @@
+{
+  "iam_apikey": "pFuk6WdDh1qrGIxUWAv55qjDANTd3vilkP3uVCsVjUGj",
+  "url": "https://api.us-south.speech-to-text.watson.cloud.ibm.com/instances/2c86099d-5a2e-4191-a375-797ec3d1b2d6",
+  "content_type": "audio/flac; rate=44100",
+  "model": "en-US_BroadbandModel"
+}
